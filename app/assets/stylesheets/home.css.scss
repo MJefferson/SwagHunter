@@ -1,0 +1,112 @@
+
+#saleBannerTop {
+  background-image: url('http://a2x.vc/swag_top.jpg');
+  background-repeat: no-repeat;
+  height: 261px;
+  position: relative;
+  margin: 0 auto;
+  width: 700px;
+  cursor: pointer;
+
+  
+  .bannerText {
+    font-size: 30px;
+    color: white;
+    background-color: lime;
+    opacity: 0.8;
+    padding: 10px;
+  } 
+}
+.hidden {
+  display: none;
+}
+#saleItems {
+  .itemsContainer {
+    img {
+      float: left;
+    }
+    overflow: auto;
+  }
+}
+
+#saleBannerBottom {
+  background-image: url('http://a2x.vc/swag_bottom.jpg');
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  width: 700px;
+  height: 261px;
+  cursor: pointer;
+  background-color: black;
+}
+
+.infiniteCarousel {
+  position: relative;
+}
+
+.infiniteCarousel .wrapper {
+  /* width: 526px;  .infiniteCarousel width - (.wrapper margin-left + .wrapper margin-right) */
+  overflow: auto;
+  min-height: 10em;
+  
+  width: 600px;
+  top: 0;
+  left: -2px;
+}
+
+.infiniteCarousel ul a img {
+  border: 5px solid #000;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.infiniteCarousel .wrapper ul {
+  width: 9999px;
+  list-style-image:none;
+  list-style-position:outside;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  position: absolute;
+  top: 0;
+}
+
+.infiniteCarousel ul li {
+  display:block;
+  float:left;
+  padding: 10px;
+  height: 85px;
+  width: 85px;
+}
+
+.infiniteCarousel ul li a img {
+  display:block;
+}
+
+.infiniteCarousel .arrow {
+  display: block;
+  height: 36px;
+  width: 37px;
+  background: url('arrow.png') no-repeat 0 0;
+  text-indent: -999px;
+  position: absolute;
+  top: 37px;
+  cursor: pointer;
+}
+
+.infiniteCarousel .forward {
+  background-position: 0 0;
+  right: 0;
+}
+
+.infiniteCarousel .back {
+  background-position: 0 -72px;
+  left: 0;
+}
+
+.infiniteCarousel .forward:hover {
+  background-position: 0 -36px;
+}
+
+.infiniteCarousel .back:hover {
+  background-position: 0 -108px;
+}
