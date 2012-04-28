@@ -30,7 +30,7 @@ header h2 {
 
 header > .left {
   float: left;
-  width: 200px;
+  width: 300px;
 }
 
 header > .right {
@@ -45,4 +45,8 @@ header > .right {
 
 footer {
 	border-top: 1px solid #CCC;
+}
+
+.imagesContainer img {
+  float: left;
 }
